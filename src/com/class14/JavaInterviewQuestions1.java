@@ -111,7 +111,7 @@ public class JavaInterviewQuestions1 {
 			//	8.Write a Java Program to print first 10 numbers of Fibonacci series.
 			
 	
-		int fib=1;
+		
 		
 	}
 
