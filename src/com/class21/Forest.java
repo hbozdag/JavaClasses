@@ -1,5 +1,7 @@
 package com.class21;
 
+
+
 public class Forest {
 
 	public String animalName;
@@ -28,6 +30,8 @@ public class Forest {
 
 		System.out.println(" Number of animals in the forest is " + Forest.numberOfAnimals++);
 
+	
+		
 	}
 
 }
