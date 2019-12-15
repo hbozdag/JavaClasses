@@ -2,7 +2,7 @@ package com.class31;
 
 public class Account {
 
-	// getters
+
 	private long accountNumber;
 
 	private double balance;

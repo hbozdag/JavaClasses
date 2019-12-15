@@ -10,7 +10,7 @@ public class AccountTest {
 		
 		acc.getAccountNumber();
 		acc.getBalance();
-		
+//		
 		acc.setAccountNumber(889336939);
 		long accountNum=acc.getAccountNumber();
 		System.out.println(accountNum);
