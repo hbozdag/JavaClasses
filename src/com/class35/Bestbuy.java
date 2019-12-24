@@ -1,9 +1,10 @@
 package com.class35;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
-import java.util.Set;
 import java.util.Map.Entry;
+import java.util.Set;
 
 public class Bestbuy {
 
@@ -18,7 +19,7 @@ public class Bestbuy {
 
 		Map<Integer, String> product = new HashMap<>();
 
-		product.put(82829109, "TV 40");
+		product.put(82829109, "LG TV");
 		product.put(76788976, "HEADPHONES");
 		product.put(67875785, "Computer");
 		product.put(56565, "ipad");
@@ -31,6 +32,22 @@ public class Bestbuy {
 			System.out.println(set.getKey()+" = "+set.getValue());
 			
 		}
+		
+		System.out.println("=====retriving key and value using iterator======");
+		
+		Iterator<Entry<Integer, String>> entryIt=product.entrySet().iterator();
+		while(entryIt.hasNext()) {
+			Entry<Integer, String> singleEntry=entryIt.next();
+			int key=singleEntry.getKey();
+			String value=singleEntry.getValue();
+			System.out.println(key+"--- "+value);
+		}
+		
+		
+		
+		
+		
+		
 	}
 
 }
