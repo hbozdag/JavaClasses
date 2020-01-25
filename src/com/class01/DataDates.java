@@ -13,6 +13,8 @@ public class DataDates {
 		//short sc=32768; compiler will give an error
 		
 		int i=767778;
+		
+		//note
 
 		
 		
@@ -37,9 +39,9 @@ public class DataDates {
 		System.out.println(b1);
 		
 		
+		//another way tyo print a number
 		
-		
-		
+		System.out.println(44);
 		
 			
 		
